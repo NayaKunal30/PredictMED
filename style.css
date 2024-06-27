@@ -97,3 +97,41 @@
         padding: 1px;
        
       }
+      #scroll-container {
+        display: flex;
+        overflow: hidden; 
+        white-space: nowrap; 
+      }
+      
+      .animate-scroll {
+        animation: scroll 20s linear infinite;
+        display: inline-block; 
+        padding: 0 20px; 
+      }
+      
+      @keyframes scroll {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      
+      /* Responsive adjustments */
+      @media (max-width: 768px) {
+        .animate-scroll {
+          animation-duration: 15s; 
+          padding: 0 15px; 
+        }
+      }
+      
+      @media (max-width: 480px) {
+        .animate-scroll {
+          animation-duration: 10s; 
+          padding: 0 10px; 
+        }
+      }
+      
+      
+      
