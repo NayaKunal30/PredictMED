@@ -1,6 +1,5 @@
 <div align='center'>
 
-<img src=https://drive.google.com/drive/u/0/my-drive alt="logo" width=5 height=10 />
 
 <h1>PredictMED - "Transforming Health with Precision Predictions"</h1>
 <p>The idea is to develop a website that offers predictive health analytics for conditions like diabetes, heart disease, and brain cancer, while also providing nearby hospital and clinic information for emergency situations. The website aims to deliver accurate predictions using advanced algorithms, prioritize user security through robust authentication measures, and enhance user engagement with interactive features. #healthprediction, #emergencyassistance, #predictivehealth, #healthcaretechnology, #medicalanalytics, #healthsecurity, #personalizedhealthcare, #emergencyresponse, #healthtech, #patientcare</p>
