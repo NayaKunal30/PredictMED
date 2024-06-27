@@ -6,7 +6,7 @@
 
 <h4> <a href=https://nayakunal30.github.io/PredictMED/>View Demo</a> <span> · </span> <a href="https://github.com/NayaKunal30/PredictMED/blob/master/README.md"> Documentation </a> <span> · </span> <a href="https://github.com/NayaKunal30/PredictMED/issues"> Report Bug </a> <span> · </span> <a href="https://github.com/NayaKunal30/PredictMED/issues"> Request Feature </a> </h4>
 
-<img src="./public/demoimage.png" alt="logo" width=1700 height=500 />
+<img src="./public/demoimage.png" alt="logo" width=1700 height=700 />
 
 
 </div>
