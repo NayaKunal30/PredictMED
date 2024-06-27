@@ -44,9 +44,13 @@
       }
     }
     body {
-        background: url('./public/bgwp2.png') no-repeat center center fixed;
-        background-size: cover;
-      }
+      background: url('./public/bgwp2.png') no-repeat center center fixed;
+      background-size: cover;
+      height: 100%; 
+      margin: 0; 
+      padding: 0; 
+    }
+    
 
     .button-animation {
       transition: transform 0.3s ease;
@@ -132,6 +136,31 @@
           padding: 0 10px; 
         }
       }
+      #dropdown-menu {
+        display: none;
+        position: absolute;
+        top: calc(100% + 5px); /* Position below the mobile menu button */
+        left: 0;
+        width: 200px; /* Adjust width as needed */
+        background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Gradient background */
+        border-radius: 8px;
+        z-index: 1000; /* Ensure dropdown is above other content */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow */
+      }
+      
+      @media (min-width: 768px) {
+        #dropdown-menu {
+          top: 100%; /* Reset top position for larger screens */
+          width: auto; /* Reset width for larger screens */
+          box-shadow: none; /* Reset box shadow for larger screens */
+        }
+      }
+      
+      #dropdown-menu.active {
+        display: block;
+      }
+      
+      
       
       
       

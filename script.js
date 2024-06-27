@@ -19,3 +19,13 @@ var animation = lottie.loadAnimation({
       autoplay: true,
       path: './public/animationmain.json' 
     });
+    
+// Selecting the mobile menu button and the dropdown menu
+const mobileMenuButton = document.getElementById('mobile-menu-button');
+const dropdownMenu = document.getElementById('dropdown-menu');
+
+// Adding click event listener to the mobile menu button
+mobileMenuButton.addEventListener('click', function() {
+  dropdownMenu.classList.toggle('active'); // Toggle the 'active' class on the dropdown menu
+});
+
