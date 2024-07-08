@@ -29,5 +29,7 @@ Distributed under the no License. See LICENSE.txt for more information.
 ## :handshake: Contact
 
 Kunal - - kunalnayak3004@gmail.com
-
+## Demo 🔗
+Check out our live demo [here](https://predictmed-ytj7.onrender.com/). 🌐
 Project Link: [https://github.com/NayaKunal30/PredictMED](https://github.com/NayaKunal30/PredictMED)
+
